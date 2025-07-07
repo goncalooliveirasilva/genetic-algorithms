@@ -1,0 +1,12 @@
+name: ga-env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - ipykernel
+  - numpy
+  - seaborn
+  - matplotlib
+  - pandas
+  - pip
