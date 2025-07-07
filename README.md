@@ -5,7 +5,7 @@ A growing collection of small projects and notebooks using **Genetic Algorithms 
 ## Projects
 | Notebook | Description |
 | -------- | ----------- |
-| [evolving_a_string](evolving_a_string.ipynb) | Evolves a random string into a target word or sentence using basic GA principles. |
+| [evolving_a_string](notebooks/evolving_a_string.ipynb) | Evolves a random string into a target word or sentence using basic GA principles. |
 
 
 ## What are Genetic Algorithms?
