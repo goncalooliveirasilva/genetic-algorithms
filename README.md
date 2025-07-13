@@ -34,3 +34,5 @@ conda activate ga-env
 ```bash
 jupyter lab
 ```
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
