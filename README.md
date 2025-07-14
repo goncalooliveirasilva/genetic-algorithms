@@ -1,23 +1,24 @@
 # Genetic Algorithms
 
-A growing collection of small projects and notebooks using **Genetic Algorithms (GAs)** to solve various problems - starting with the classic: *evolving a string into a target phrase*.
+A growing collection of small projects and notebooks using **Genetic Algorithms (GAs)** to solve various problems.
 
 ## Projects
 | Notebook | Description |
 | -------- | ----------- |
 | [evolving_a_string](notebooks/evolving_a_string.ipynb) | Evolves a random string into a target word or sentence using basic GA principles. |
+| [knapsack_problem](notebooks/knapsack_problem.ipynb) | Solves the classic Knapsack Problem with comparison to the brute force approach. |
 
 
 ## What are Genetic Algorithms?
 
 Genetic Algorithms are optimization techniques inspired by **natural selection**. They evolve a population of cadidate solutions through:
 
-- **Selection**
-- **Crossover**
-- **Mutation**
-- **Fitness Evaluation**
+- **Selection** - choosing the best individuals for reprodution
+- **Crossover** - combining parts of parents to create offspring
+- **Mutation** - introducing random changes to maintain diversity
+- **Fitness Evaluation** - scoring how well each solution performs
 
-Useful for problems where brute-force isn´t practical.
+They are particularly useful for problems where brute-force or exact methods are **computationally impractical**.
 
 ## Running the notebooks
 1. Clone this repo
