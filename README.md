@@ -8,6 +8,13 @@ A growing collection of small projects and notebooks using **Genetic Algorithms 
 | [evolving_a_string](notebooks/evolving_a_string.ipynb) | Evolves a random string into a target word or sentence using basic GA principles. |
 | [knapsack_problem](notebooks/knapsack_problem.ipynb) | Solves the classic Knapsack Problem with comparison to the brute force approach. |
 
+## Tech Stack
+<div>
+  <img height="32" width="32" title="Python" src="https://cdn.simpleicons.org/python" />
+  &nbsp;
+  <img height="32" width="32" title="Python" src="https://cdn.simpleicons.org/jupyter" />
+</div>
+
 
 ## What are Genetic Algorithms?
 
