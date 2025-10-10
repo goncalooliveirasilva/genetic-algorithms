@@ -1,39 +1,48 @@
-# Genetic Algorithms
+# 🧬 Genetic Algorithms Collection
 
-A growing collection of small projects and notebooks using **Genetic Algorithms (GAs)** to solve various problems.
+A curated set of small projects and Jupyter notebooks exploring **Genetic Algorithms** (GAs) for solving optimization problems.
 
-## Projects
-| Notebook | Description |
-| -------- | ----------- |
-| [evolving_a_string](notebooks/evolving_a_string.ipynb) | Evolves a random string into a target word or sentence using basic GA principles. |
-| [knapsack_problem](notebooks/knapsack_problem.ipynb) | Solves the classic Knapsack Problem with comparison to the brute force approach. |
+## 📚 Projects
 
+| Notebook                                                            | Description                                                                       |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [01 - Evolving a String](notebooks/01_evolving_a_string.ipynb)      | Evolves a random string into a target word or sentence using basic GA principles. |
+| [02 - Knapsack Problem](notebooks/02_knapsack_problem.ipynb)        | Solves the classic Knapsack Problem with comparison to the brute force approach.  |
+| [03 - Travelling Salesman Problem (TSP)](notebooks/03_tsp_ga.ipynb) | Find near-optimal routes between cities.                                          |
 
-## What are Genetic Algorithms?
+## 🧠 What are Genetic Algorithms?
 
-Genetic Algorithms are optimization techniques inspired by **natural selection**. They evolve a population of cadidate solutions through:
+Genetic Algorithms (GAs) are bio-inspired optimization techniques that mimic the process of natural selection.  
+They iteratively improve a population of potential solutions using:
 
-- **Selection** - choosing the best individuals for reprodution
-- **Crossover** - combining parts of parents to create offspring
-- **Mutation** - introducing random changes to maintain diversity
-- **Fitness Evaluation** - scoring how well each solution performs
+- 🧩 Selection — choose the fittest individuals for reproduction
+- 🔀 Crossover — combine genes (solutions) from parents to produce new offspring
+- 🎲 Mutation — introduce random changes to maintain genetic diversity
+- 🏅 Fitness Evaluation — score how well each solution solves the problem
+  > 💡 GAs are ideal for problems where brute-force or analytical methods are computationally infeasible (e.g., NP-hard problems).
 
-They are particularly useful for problems where brute-force or exact methods are **computationally impractical**.
+## 🚀 Getting Started
 
-## Running the notebooks
 1. Clone this repo
+
 ```bash
 git clone git@github.com:goncalooliveirasilva/genetic-algorithms.git
 cd genetic-algorithms
 ```
+
 2. Create and activate Conda environment (optional)
+
 ```bash
 conda env create -f environment.yml
 conda activate ga-env
 ```
+
 3. Launch Jupyter
+
 ```bash
 jupyter lab
 ```
-## License
+
+## ⚖️ License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
