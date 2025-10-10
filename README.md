@@ -19,7 +19,8 @@ They iteratively improve a population of potential solutions using:
 - 🔀 Crossover — combine genes (solutions) from parents to produce new offspring
 - 🎲 Mutation — introduce random changes to maintain genetic diversity
 - 🏅 Fitness Evaluation — score how well each solution solves the problem
-  > 💡 GAs are ideal for problems where brute-force or analytical methods are computationally infeasible (e.g., NP-hard problems).
+
+> 💡 GAs are ideal for problems where brute-force or analytical methods are computationally infeasible (e.g., NP-hard problems).
 
 ## 🚀 Getting Started
 
