@@ -1,4 +1,4 @@
-# 🧬 Genetic Algorithms Collection
+# Genetic Algorithms Collection
 
 A curated set of small projects and Jupyter notebooks exploring **Genetic Algorithms** (GAs) for solving optimization problems.
 
@@ -20,7 +20,7 @@ They iteratively improve a population of potential solutions using:
 - Mutation — introduce random changes to maintain genetic diversity
 - Fitness Evaluation — score how well each solution solves the problem
 
-> 💡 GAs are ideal for problems where brute-force or analytical methods are computationally infeasible (e.g., NP-hard problems).
+> GAs are ideal for problems where brute-force or analytical methods are computationally infeasible (e.g., NP-hard problems).
 
 ## Getting Started
 
